@@ -16,9 +16,9 @@ tecla.onclick = function () {
 };
 tecla.onkeydown = function(){
     tecla.classList.add('ativa');
-}
+};
 tecla.onkeyup = function(){
     tecla.classList.remove('ativa');
-}
+};
     console.log(contador);
 }
